@@ -3,11 +3,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Search from "./Search/Search";
+import Search from "./pages/Search/Search";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Home/Home";
+import Home from "./pages/Home/Home";
 import { createTheme, ThemeProvider } from "@mui/material";
-import MyBookings from "./MyBookings/MyBookings";
+import MyBookings from "./pages/MyBookings/MyBookings";
 
 const router = createBrowserRouter([
   {
